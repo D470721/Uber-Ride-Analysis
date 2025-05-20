@@ -73,11 +73,11 @@ RETURN DIVIDE(Nightcount, [Total Trips], 0)
 - Total Distance Traveled: 393.9K miles covered by Uber rides.
 
 2. Peak Ride Times
-- The highest number of pickups occurs between 6 AM and 9 AM and 5 PM and 8 PM, indicating peak commuting hours.
-- A noticeable dip in trips is observed between 10 AM - 4 PM, likely due to lower demand.
+- The most pickups occur between 6 AM and 9 AM and 5 PM and 8 PM, indicating peak commuting hours.
+- A noticeable trip dip is observed between 10 AM - 4 PM, likely due to lower demand.
 
 3. Night Shift Trends
-- 39.6% of Uber rides happen during nighttime (9 PM - 6 AM), showing a strong late-hour demand.
+- 39.6% of Uber rides happen during nighttime (9 PM - 6 AM), showing a strong late-night demand.
 - Demand surges between 10 PM - 2 AM, which aligns with nightlife and late-hour work shifts.
 
 4. Trip Distribution by Location (Top 5 busiest pickup locations)
