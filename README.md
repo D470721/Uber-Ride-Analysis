@@ -14,7 +14,7 @@
 
 ### Project Overview
 This project analyzes Uber ride data to uncover key insights regarding trip patterns, total fares, distances traveled, and night shift distributions. The goal is to create an interactive Power BI dashboard that helps visualize trip trends based on location, time, and payment type.
-![Uber Analytics Dashboard edited](https://github.com/user-attachments/assets/7166f336-d41c-4884-9e2d-9a1e9790e90e)
+![Uber Analytics Dashboard edited](https://user-images.githubusercontent.com/123456789/yourimage.jpg)
 
 ### Objectives
 - Develop a dashboard to track key ride metrics (trips, fares, duration, and distance).
