@@ -16,7 +16,6 @@
 This project analyzes Uber ride data to uncover key insights regarding trip patterns, total fares, distances traveled, and night shift distributions. The goal is to create an interactive Power BI dashboard that helps visualize trip trends based on location, time, and payment type.
 ![Uber Analytics Dashboard edited](https://github.com/user-attachments/assets/7166f336-d41c-4884-9e2d-9a1e9790e90e)
 
-
 ### Objectives
 - Develop a dashboard to track key ride metrics (trips, fares, duration, and distance).
 - Identify trends in Uber rides across different times and locations.
@@ -28,7 +27,7 @@ The dataset consists of two tables:
 - Location Table (CSV file) – Contains trip location details.
 - Trip Details Table (Excel file) – Contains trip metadata, including timestamps, fares, and distances.
 
-Key Column Descriptions:
+### Key Column Descriptions
 - Trip ID – Unique identifier for each trip.
 - Pickup Time & Drop-off Time – Start and end time of each ride.
 - Trip Distance – Distance covered during the ride.
@@ -58,7 +57,6 @@ Exploratory Data Analysis (EDA) – Identifying patterns, trends, and anomalies 
 - A Date Table was created to facilitate time-based filtering.
 - A Shift Column was created to categorize trips as Day (6 AM - 9 PM) or Night (9 PM - 6 AM).
 - Relationships were established between Trip Details, Location Table, and Date Table to enhance dashboard interactivity.
-
 - KPIs were calculated using DAX measures, such as:
 Total Trips = COUNT('Trip Details'[Trip ID])
 Total Fare = SUM('Trip Details'[Fare])
@@ -74,7 +72,7 @@ RETURN DIVIDE(Nightcount, [Total Trips], 0)
 
 2. Peak Ride Times
 - The most pickups occur between 6 AM and 9 AM and 5 PM and 8 PM, indicating peak commuting hours.
-- A noticeable trip dip is observed between 10 AM - 4 PM, likely due to lower demand.
+- A noticeable trip dip is observed between 10 AM and 4 PM, likely due to lower demand.
 
 3. Night Shift Trends
 - 39.6% of Uber rides happen during nighttime (9 PM - 6 AM), showing a strong late-night demand.
